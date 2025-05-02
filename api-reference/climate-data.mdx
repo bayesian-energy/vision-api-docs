@@ -1,0 +1,82 @@
+---
+title: 'Climate Data API'
+description: 'Access historical and projected climate data'
+---
+
+# Climate Data API
+
+## Get Climate Data
+
+<ParamField query="start_year" type="number" required>
+  Start year for the data (1980-2080)
+</ParamField>
+
+<ParamField query="end_year" type="number" required>
+  End year for the data (1980-2080)
+</ParamField>
+
+<ParamField query="variable" type="string" required>
+  Climate variable to retrieve. One of: `temperature`, `wind_speed`, `solar_irradiance`
+</ParamField>
+
+<ParamField query="scenarios" type="array" required>
+  List of climate scenarios. Options: `ssp126`, `ssp245`, `ssp585`
+</ParamField>
+
+<ParamField query="models" type="array" required>
+  List of climate models. Options: `EC-Earth3`, `MPI-ESM1-2-HR`, `CMCC-CM2-SR5`
+</ParamField>
+
+<RequestExample>
+```bash Example Request
+curl --request GET \
+  --url 'https://api.renewablesvision.com/v1/climate-data?start_year=2020&end_year=2025&variable=temperature&scenarios=ssp245&models=EC-Earth3' \
+  --header 'Authorization: Bearer YOUR_API_KEY'
+```
+</RequestExample>
+
+<ResponseExample>
+```json Response
+{
+  "data": {
+    "variable": "temperature",
+    "unit": "°C",
+    "temporal_resolution": "daily",
+    "values": [
+      {
+        "date": "2020-01-01",
+        "value": 12.5,
+        "model": "EC-Earth3",
+        "scenario": "ssp245"
+      },
+      // ... more data points
+    ]
+  },
+  "metadata": {
+    "start_year": 2020,
+    "end_year": 2025,
+    "model": "EC-Earth3",
+    "scenario": "ssp245",
+    "data_points": 1826
+  }
+}
+```
+</ResponseExample>
+
+## Error Codes
+
+<ResponseField name="400" type="object">
+  Bad Request - Invalid parameters
+</ResponseField>
+
+<ResponseField name="401" type="object">
+  Unauthorized - Invalid API key
+</ResponseField>
+
+<ResponseField name="403" type="object">
+  Forbidden - Insufficient credits
+</ResponseField>
+
+<ResponseField name="429" type="object">
+  Too Many Requests - Rate limit exceeded
+</ResponseField> 
