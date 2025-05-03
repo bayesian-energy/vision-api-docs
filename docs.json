@@ -35,7 +35,7 @@
         ]
       },
       {
-        "tab": "Renewables Vision API",
+        "tab": "Renewables Vision",
         "groups": [
           {
             "group": "Platform Documentation",
@@ -45,12 +45,6 @@
           },
           {
             "group": "API Documentation",
-            "pages": [
-              "rv-api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
             "pages": [
               "rv-api-reference/introduction",
               "rv-api-reference/endpoint/get",
