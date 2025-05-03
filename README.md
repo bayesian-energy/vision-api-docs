@@ -5,7 +5,7 @@ This is a copy the Mintlify starter kit. The starter kit contains examples inclu
 - Guide pages
 - Navigation
 - Customizations
-- API Reference pages
+- Renewables Vision API pages
 - Use of popular components
 
 ### Development

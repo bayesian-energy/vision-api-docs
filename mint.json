@@ -43,7 +43,7 @@
       ]
     },
     {
-      "group": "API Reference",
+      "group": "Renewables Vision API",
       "pages": [
         "api-reference/climate-data",
         "api-reference/renewables",
