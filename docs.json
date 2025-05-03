@@ -40,16 +40,16 @@
           {
             "group": "API Documentation",
             "pages": [
-              "api-reference/introduction"
+              "rv-api-reference/introduction"
             ]
           },
           {
             "group": "Endpoint Examples",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "rv-api-reference/endpoint/get",
+              "rv-api-reference/endpoint/create",
+              "rv-api-reference/endpoint/delete",
+              "rv-api-reference/endpoint/webhook"
             ]
           }
         ]
