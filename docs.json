@@ -38,9 +38,12 @@
         "tab": "Renewables Vision",
         "groups": [
           {
-            "group": "Platform Documentation",
+            "group": "Platform",
             "pages": [
-              "rv-platform-docs/introduction"
+              "rv-platform-docs/introduction",
+              "rv-platform-docs/getting-started",
+              "rv-platform-docs/climate-data",
+              "rv-platform-docs/capacity-factor-estimation"
             ]
           },
           {
