@@ -58,18 +58,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Bayesian Energy",
+          "href": "https://www.bayesian.energy",
+          "icon": "globe"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Github",
+          "href": "https://github.com/bayesian-energy",
+          "icon": "github"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://www.bayesian.energy/resources/blog",
           "icon": "newspaper"
         }
       ]
