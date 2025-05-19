@@ -25,7 +25,7 @@
     {
       "name": "Renewables Vision API",
       "icon": "code",
-      "url": "rv-api-reference"
+      "url": "prod-rv-api-reference"
     },
     {
       "name": "Changelog",
@@ -45,9 +45,9 @@
     {
       "group": "Renewables Vision API",
       "pages": [
-        "rv-api-reference/climate-data",
-        "rv-api-reference/renewables",
-        "rv-api-reference/analysis"
+        "prod-rv-api-reference/climate-data",
+        "prod-rv-api-reference/renewables",
+        "prod-rv-api-reference/analysis"
       ]
     }
   ],

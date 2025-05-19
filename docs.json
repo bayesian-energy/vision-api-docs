@@ -16,20 +16,7 @@
           {
             "group": "Get Started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "index"
             ]
           }
         ]
@@ -40,20 +27,10 @@
           {
             "group": "Platform",
             "pages": [
-              "rv-platform-docs/introduction",
-              "rv-platform-docs/getting-started",
-              "rv-platform-docs/climate-data",
-              "rv-platform-docs/capacity-factor-estimation"
-            ]
-          },
-          {
-            "group": "API Documentation",
-            "pages": [
-              "rv-api-reference/introduction",
-              "rv-api-reference/endpoint/get",
-              "rv-api-reference/endpoint/create",
-              "rv-api-reference/endpoint/delete",
-              "rv-api-reference/endpoint/webhook"
+              "prod-rv-platform-docs/introduction",
+              "prod-rv-platform-docs/getting-started",
+              "prod-rv-platform-docs/climate-data",
+              "prod-rv-platform-docs/capacity-factor-estimation"
             ]
           }
         ]
