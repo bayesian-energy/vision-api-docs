@@ -1,22 +1,33 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Bayesian Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#255CFF",
+    "light": "#255CFF",
+    "dark": "#0043fd"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Home",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Overview",
             "pages": [
               "index"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Convexity",
+        "groups": [
+          {
+            "group": "Platform",
+            "pages": [
+              "prod-cvx-docs/introduction"
             ]
           }
         ]
@@ -28,9 +39,7 @@
             "group": "Platform",
             "pages": [
               "prod-rv-platform-docs/introduction",
-              "prod-rv-platform-docs/getting-started",
-              "prod-rv-platform-docs/climate-data",
-              "prod-rv-platform-docs/capacity-factor-estimation"
+              "prod-rv-platform-docs/getting-started"
             ]
           }
         ]
@@ -39,7 +48,7 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Bayesian Energy",
+          "anchor": "Website",
           "href": "https://www.bayesian.energy",
           "icon": "globe"
         },
@@ -63,13 +72,13 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "Contact",
         "href": "mailto:contact@bayesian.energy"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Renewables Vision",
+      "label": "Bayesian Energy",
       "href": "https://www.bayesian.energy"
     }
   },
