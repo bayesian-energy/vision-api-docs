@@ -1,6 +1,6 @@
 # Mintlify Starter Kit
 
-This is a copy the Mintlify starter kit. The starter kit contains examples including
+This is a copy the Mintlify starter kit. The starter kit contains examples including.
 
 - Guide pages
 - Navigation
